@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import Closet from "./components/Closet";
-import UploadForm from "./components/UploadForm";
+import UploadForm from "./components/Uploader/UploadForm";
 
 const App = () => {
   const [items, setItems] = useState([]);
